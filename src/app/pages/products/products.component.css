@@ -1,0 +1,40 @@
+/* Les boxs produits */
+.catbox{
+    padding: 10px 10px;
+}
+
+.catbox img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.catbox h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.catdetail{
+    width: 100%;
+    height: 140px;
+    padding-top: 20px;
+}
+
+/* bouton commander */
+.orderbtn{
+    text-decoration: none;
+    background: linear-gradient(#f76152, #b03a2e);
+    color: #ABEBC6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 25%;
+}
+
+.orderbtn:hover{
+    background: linear-gradient(#ABEBC6, #1ABC9C);
+    color: #b03a2e;
+}

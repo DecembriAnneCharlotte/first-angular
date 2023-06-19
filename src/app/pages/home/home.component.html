@@ -1,0 +1,50 @@
+<!-- Introduction -->
+<div class="intro">
+    <div class="textandbutton">
+        <h1 class="mb-4">Obtenez les créations<br>que vous imaginez</h1>
+        <a href="products">Nos Produits <i class="bi bi-arrow-right-circle"></i></a>
+    </div>    
+</div>
+
+<!-- Etapes -->
+<div class="steps mt-5 mb-5">
+    <h1 class="text-center">Comment procéder</h1>
+    <div class="row mt-5">
+
+        <div class="col-lg-4 mt-2">
+            <div class="stepbox">
+                <h1>Etape 1</h1>
+                <p>Séléctionnez votre type de création</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mt-2">
+            <div class="stepbox">            
+                <h1>Etape 2</h1>
+                <p>Communiquez nous les détails de votre projet</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mt-2">
+            <div class="stepbox">
+                <h1>Etape 3</h1>
+                <p>Joignez des photos ou dessins</p>
+            </div>    
+        </div>
+
+    </div>
+</div>
+
+<!-- Catégories -->
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">Quelques exemples...</h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let cd of catData;index as i">
+            <div class="catbox" *ngIf="i<=3">
+                <img src="{{cd.catImg}}" alt="">
+                <h1>{{cd.catName}}</h1>
+            </div>
+        </div>
+    </div>
+    <a routerLink="products" class="viewmorebtn">Voir plus <i class="bi bi-arrow-right-circle"></i></a>
+</div>

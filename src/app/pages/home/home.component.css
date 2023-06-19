@@ -1,0 +1,120 @@
+/* Introduction */
+.intro{
+    background-image: url('../../../assets/img/home.jpg');
+    height: 650px;
+    background-position: center 62%;
+    background-size: cover;
+}
+
+.textandbutton{
+    top: 50%;
+    left: 52%;
+    position: absolute;
+    line-height: 190%;
+    text-align: center;
+}
+
+.textandbutton h1{
+    color: #1ABC9C;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 190%;
+}
+
+.textandbutton a{
+    text-decoration: none;
+    background: linear-gradient( #f76152,#b03a2e);
+    color: #ABEBC6;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.textandbutton a:hover{
+    background: linear-gradient(#ABEBC6, #1ABC9C);
+    color: #b03a2e;
+
+}
+
+/* Etapes */
+.stepbox{
+    background: linear-gradient( #f76152,#b03a2e);
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.stepbox h1{
+    color: #D1F2EB ;
+    font-weight: bold;
+}
+
+.stepbox p{
+    font-size: 20px;
+    color: #1ABC9C;
+}
+
+/* Catégories */
+.catbox{
+    padding: 10px 5px;
+}
+
+.catbox img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.catbox h1{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Voir plus */
+.viewmorebtn{
+    text-decoration: none;
+    background: linear-gradient(#f76152, #b03a2e);
+    color: #ABEBC6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.viewmorebtn:hover{
+    background: linear-gradient(#ABEBC6, #1ABC9C);
+    color: #b03a2e;
+}
+
+/* media */
+
+@media screen and (max-width:600px){
+  
+    .intro{
+        height: 700px;
+    }
+
+    .stepbox p{
+        font-size: 15px; 
+    }
+
+    .textandbutton h1{
+        font-size: 25px;
+    }
+
+    .textandbutton{
+        top: 40%;
+        left: 20%;
+    }
+    
+}
+
+@media screen and (max-width:900px){
+
+    .textandbutton{
+        top: 20%;
+        left: 20%;
+    }
+
+}

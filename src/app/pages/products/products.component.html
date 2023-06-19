@@ -1,0 +1,14 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let cd of catData">
+            <div class="catbox mt-3 mb-4">
+                <h1>{{cd.catName}}</h1>
+                <img src="{{cd.catImg}}" alt="">
+                <div class="catdetail">
+                    <p>{{cd.catDetails}}</p>
+                </div>
+                <a href="contacts" class="orderbtn">Commander <i class="bi bi-arrow-right-circle"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

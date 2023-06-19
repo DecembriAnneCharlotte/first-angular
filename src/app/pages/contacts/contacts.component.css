@@ -1,0 +1,16 @@
+.submitbtn{
+    text-decoration: none;
+    background: linear-gradient(#f76152, #b03a2e);
+    color: #ABEBC6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    border-color: #f76152;
+}
+
+.submitbtn:hover{
+    background: linear-gradient(#ABEBC6, #1ABC9C);
+    color: #b03a2e;
+    border-color: #ABEBC6;
+
+}

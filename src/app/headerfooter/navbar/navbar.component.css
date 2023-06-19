@@ -1,0 +1,31 @@
+.nav-link.active-link{
+    color: #E8F8F5  ;
+}
+.nav-link:hover{
+    color: #1ABC9C;
+}
+
+.container-fluid a{
+    font-weight: bold;
+}
+
+.container-fluid.active-link a{
+    color: #1ABC9C;
+}
+
+.container-fluid a:hover{
+    color: #1ABC9C;
+}
+
+.container-fluid{
+    background-color: #f76152;
+}
+
+.bg-light{
+    padding: 0 0 0 0;
+}
+
+a{
+    color: #E8F8F5  ;
+}
+
